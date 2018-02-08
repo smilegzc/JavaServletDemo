@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ComputeDemo</title>
+</head>
+<body>
+<div align="center">
+	<form method="post" action="compute.jsp">
+		<p>
+			<label>
+				选择要做的运算
+				<input type="radio" name="compute" value="division" checked>
+				除法
+			</label>
+			<label>
+				<input type="radio" name="compute" value="multiplication">
+				乘法
+			</label>
+		</p>
+		<p>
+			<label>
+				被除数（乘数）
+				<input type="text" name="value1">
+			</label>
+			<label>
+				除数（乘数）
+				<input type="text" name="value2">
+			</label>
+		</p>
+		<p>
+			<input type="submit" name="sub" value="计算结果">
+		</p>
+	</form>
+</div>
+</body>
+</html>
